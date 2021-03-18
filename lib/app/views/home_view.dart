@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomeView extends StatefulWidget {
-  HomeView({Key key}) : super(key: key);
+  HomeView({Key? key}) : super(key: key);
 
   @override
   _HomeViewState createState() => _HomeViewState();
@@ -22,7 +22,7 @@ class _HomeViewState extends State<HomeView> {
                 DropdownButton(
                   items: [],
                 ),
-                TextField(),
+                Container(width: 150, child: TextField()),
               ],
             ),
             ElevatedButton(
